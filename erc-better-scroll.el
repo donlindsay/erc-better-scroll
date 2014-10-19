@@ -1,6 +1,7 @@
 ;; erc-better-scroll.el
 ;; this code comes from Deniz Dogan, who attached it to a message to
 ;; the bug-gnu-emacs mailing list, he gets full credit
+;; probably gpl3 license
 
 (defun erc-display-line-1 (string buffer)
   "Display STRING in `erc-mode' BUFFER.
