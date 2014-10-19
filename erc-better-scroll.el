@@ -1,6 +1,8 @@
 ;; erc-better-scroll.el
 ;; this code comes from Deniz Dogan, who attached it to a message to
-;; the bug-gnu-emacs mailing list, he gets full credit
+;; the bug-gnu-emacs mailing list
+;; http://lists.gnu.org/archive/html/bug-gnu-emacs/2012-06/msg00360.html
+;; he gets full credit
 ;; probably gpl3 license
 
 (defun erc-display-line-1 (string buffer)
