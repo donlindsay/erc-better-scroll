@@ -1,9 +1,7 @@
 ;; erc-better-scroll.el
-;; this code comes from Deniz Dogan, who attached it to a message to
-;; the bug-gnu-emacs mailing list
+;; this code comes from Deniz Dogan
 ;; http://lists.gnu.org/archive/html/bug-gnu-emacs/2012-06/msg00360.html
-;; he gets full credit
-;; probably gpl3 license
+;; gpl2 license
 
 (defun erc-display-line-1 (string buffer)
   "Display STRING in `erc-mode' BUFFER.
@@ -76,3 +74,5 @@ If STRING is nil, the function does nothing."
              (>= (point) erc-input-marker))
     (recenter -1)))
 (add-hook 'window-configuration-change-hook 'damd-window-configuration-change-hook)
+
+(provide 'erc-better-scroll)
