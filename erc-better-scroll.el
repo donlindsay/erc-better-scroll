@@ -76,3 +76,4 @@ If STRING is nil, the function does nothing."
              (>= (point) erc-input-marker))
     (recenter -1)))
 (add-hook 'window-configuration-change-hook 'damd-window-configuration-change-hook)
+(provide 'erc-better-scroll)
